@@ -23,6 +23,7 @@ export const PokemonCard: FC<Props> = ({ pokemon }) => {
                 isHoverable
                 isPressable
                 onClick={handleClick}
+                css={{dropShadow:"none"}}
             >
                 <Card.Body css={{ p: 1 }}>
                     <Card.Image
